@@ -133,7 +133,7 @@
 
 /*  General CSS*/
 body{
-    background: #ecd8d2;
+    background: white;
 }
 
 .wrapper{
@@ -195,7 +195,7 @@ h5, h6          { font-weight: bolder }*/
         width: 250px;
         min-height: 100%;
         padding: 0 25px 0 25px;
-        background: ##d4fbd9;;
+        background: #F2F1F0;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -669,9 +669,10 @@ h5, h6          { font-weight: bolder }*/
     header{
         display: block;
         width: 100%;
-        min-height: 60px;
-        max-height: 140px;
-        padding: 45;
+        min-height: 140px;
+        max-height: 250px;
+        /*padding: 45px;*/
+        background-color: #F2F1F0;
         /*position: relative;*/
         /*text-align: center;*/
     }
@@ -681,7 +682,10 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header .logo{
+      margin-right: 0;
+      padding-right: 0;
       display: inline-block;
+      float: left;
       width: 140px;
       margin: 40px;
     }
@@ -693,6 +697,7 @@ h5, h6          { font-weight: bolder }*/
     header .footer{
         display: none;
     }
+
     header #menu_icon,
     header .close_menu{
         float: right;
@@ -700,10 +705,10 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header nav{
-        float: right;
         display: inline-block;
+        float: right;
         list-style: none;
-        margin: 50px 45px 0;
+        margin: 50px 45px 0 0;
         padding:0;
     }
 
@@ -751,6 +756,23 @@ h5, h6          { font-weight: bolder }*/
 @media (max-width:550px){
      .main .work{
         width: 100%;
+    }
+
+    header .logo{
+      float: none;
+      display: block;
+      margin: 0 auto;
+      padding: 45px 0 30px;
+      text-align: center;
+    }
+
+    header nav{
+        text-align: center;
+        float: none;
+        display: block;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0 0 30px;
     }
 
 }
