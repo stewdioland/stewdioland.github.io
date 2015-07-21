@@ -327,17 +327,17 @@ h5, h6          { font-weight: bolder }*/
 
     header .rights a{
         font-family: "DIN", arial;
-        font-weight: bold;
+        /*font-weight: bold;*/
         text-decoration: none;
     }
-    #menu_icon,
+    /*#menu_icon,
     .close_menu{
         display: none;
-    }
+    }*/
 
 }
 
-#menu_icon,
+/*#menu_icon,
 .close_menu{
     float: right;
     margin-right: 40px;
@@ -349,7 +349,7 @@ h5, h6          { font-weight: bolder }*/
 
 #menu_icon{
     background-position: 0 0;
-}
+}*/
 .close_menu{
     background-position: -41px 0!important;
 }
@@ -470,49 +470,10 @@ h5, h6          { font-weight: bolder }*/
     height: 100%;
 }
 
-.work_nav{
-    display: block;
-    width: 100%;
-}
-
-.work_nav .btn{
-    float: right
-}
-
-.work_nav ul{
-    list-style: none;
-}
-
-.work_nav ul li{
-    display: block;
-    float: left;
-    margin: 0 0 1px 1px;
-    position: relative;
-}
-
-.work_nav a{
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url('../img/p_navigation.png') no-repeat;
-    background-position: 0 0;
-}
-
-.work_nav a.previous{
-    background-position: 0 0;
-}
-
-.work_nav a.grid{
-    background-position: -41px 0;
-}
-
-.work_nav a.next{
-    background-position: -82px 0;
-}
-
 .top .title{
     display: block;
     width: 100%;
+    float: left;
     color: white;
     font-family: "DIN_lite", arial;
     font-size: 36px;
@@ -555,9 +516,9 @@ h5, h6          { font-weight: bolder }*/
 .content p{
     /*padding-left: 25px;*/
     color: #79716e;
-    font-family: 'DIN', serif;
-    font-size: 18px;
-    line-height: 1.6;
+    font-family: 'Martel', serif;
+    font-size: 16px;
+    line-height: 1.8;
     margin-bottom: 60px;
 }
 
@@ -569,7 +530,7 @@ h5, h6          { font-weight: bolder }*/
 .content h6{
     color: #4b4848;
     font-family: "DIN", arial;
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 28px;
     margin-bottom: 30px;
 
@@ -597,7 +558,7 @@ h5, h6          { font-weight: bolder }*/
 #map .map_address .address,
 #map .map_tel .tel{
     font-family: 'DIN', arial;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
 }
 
 #map img{
@@ -687,7 +648,7 @@ h5, h6          { font-weight: bolder }*/
       display: inline-block;
       float: left;
       width: 140px;
-      margin: 40px;
+      margin: 40px 0 40px 40px;
     }
 
     header .intro{
@@ -708,7 +669,7 @@ h5, h6          { font-weight: bolder }*/
         display: inline-block;
         float: right;
         list-style: none;
-        margin: 50px 45px 0 0;
+        margin: 50px 40px 0 0;
         padding:0;
     }
 
