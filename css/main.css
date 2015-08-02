@@ -195,7 +195,7 @@ h5, h6          { font-weight: bolder }*/
         width: 250px;
         min-height: 100%;
         padding: 0 25px 0 25px;
-        background: #F2F1F0;
+        background: #f9f6ea;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -203,22 +203,22 @@ h5, h6          { font-weight: bolder }*/
 
     header .portrait{
         margin: 60px 0 0 0;
-        width: 150px;
-          display: none;
+        width: 140px;
+          /*display: none;*/
 
     }
 
     header .logo{
-        margin: 80px auto 45px;
+        margin: 45px auto 45px;
         width: 130px;
     }
 
     header .intro{
         padding: 0 20px;
-        font-family: 'DIN', serif;
+        font-family: 'DIN', sans-serif;
         font-size: 1em;
-        line-height: 1.6;
-        color: #181485;
+        line-height: 1.5;
+        color: #3d566b;
     }
 
     header nav ul{
@@ -232,11 +232,11 @@ h5, h6          { font-weight: bolder }*/
         display: block;
         margin: 0 20px 25px;
         padding: 0 0 25px;
-        border-bottom: 1px solid #181485;
+        border-bottom: 1px solid #3d566b;
     }
 
     header nav ul li a{
-        color: #181485;
+        color: #3d566b;
         font-family: "DIN", arial;
         font-size: 18px;
         text-decoration: none;
@@ -244,7 +244,7 @@ h5, h6          { font-weight: bolder }*/
         border-bottom: .5px solid;
         text-transform: uppercase;
         letter-spacing: .8px;
-        color: #181485;
+        color: #3d566b;
 
     }
 
@@ -253,105 +253,30 @@ h5, h6          { font-weight: bolder }*/
         color: #969595;
     }
 
-    header .footer{
-        position: absolute;
-        bottom: 50px;
-    }
 
-    header ul.social{
-        list-style: none;
-        margin-bottom: 5px;
-    }
-
-    header ul.social li{
-        display: block;
-        float: left;
-        position: relative;
-        margin: 0 15px 15px 0;
-    }
-
-
-    header ul.social li a{
-        display: block;
-        width: 30px;
-        height: 30px;
-        background: url('../img/sm.png') no-repeat;
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
-    }
-
-
-
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
-        background-position: -31px 0;
-    }
-
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
-        background-position: -62px 0;
-    }
-
-    header ul.social li a.twitter,
-    header ul.social li a.twitter:hover{
-        background-position: -93px 0;
-    }
-
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
-        background-position: -124px 0;
-    }
-
-    header ul.social li a.rss,
-    header ul.social li a.rss:hover{
-        background-position: -155px 0;
-    }
-
-    header .rights p{
-        color: #454545;
-        font-family: "DIN", arial;
-        font-size: 11px;
-        letter-spacing: 1px;
-        line-height: 18px;
-    }
-
-    header .rights a{
-        font-family: "DIN", arial;
-        /*font-weight: bold;*/
-        text-decoration: none;
-    }
     /*#menu_icon,
     .close_menu{
         display: none;
     }*/
 
-}
+    /*#menu_icon,
+    .close_menu{
+        float: right;
+        margin-right: 40px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background: url('../img/men_icons.png') no-repeat;
+    }
 
-/*#menu_icon,
-.close_menu{
-    float: right;
-    margin-right: 40px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    background: url('../img/men_icons.png') no-repeat;
-}
+    #menu_icon{
+        background-position: 0 0;
+    }*/
 
-#menu_icon{
-    background-position: 0 0;
-}*/
-.close_menu{
-    background-position: -41px 0!important;
+    .close_menu{
+        background-position: -41px 0!important;
+    }
+
 }
 
 
@@ -408,7 +333,7 @@ h5, h6          { font-weight: bolder }*/
 
 .main .work a:hover .caption{
     opacity: .7;
-    background-color: #181485;
+    background-color: #3d566b;
 }
 
 
@@ -428,16 +353,17 @@ h5, h6          { font-weight: bolder }*/
     /*padding: 20px 0;*/
     z-index: 77;
     color: white;
-    font-family: "DIN", arial;
+    font-family: "DIN_lite", arial;
     font-size: 21px;
     letter-spacing: .5px;
     /*border-bottom: 1px solid #bfbbbb;
     border-top: 1px solid #bfbbbb;*/
 }
 
-.work_title, h4 {
+/*.work_title, h4 {
+  font-family: "DIN_lite", sans-serif;
   color: white;
-}
+}*/
 
 
 
@@ -448,63 +374,86 @@ h5, h6          { font-weight: bolder }*/
 /*  Inner Page  */
 .top{
     width: 100%;
-    height: 350px;
+    height: auto;
     overflow: hidden;
     display: block;
-    position: relative;
-    background: url('../img/hero_image.jpg') no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: 50% 50%;
-    background-color: #181485;
+    /*position: relative;*/
+    /*background: url('../img/hero_image.jpg') no-repeat;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-position: 50% 50%;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #3d566b;
+    color: white;
+    text-align: center;
+    font-family: "DIN_lite", arial;
+    font-size: 1.1em;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    padding: 15%;
+    margin: 0!important;
 }
 
-.colayer {
-    background-color: rgba(24, 20, 133, 0.7);
+.work_large {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+/*.work_large {
+  width: auto;
+  height: 0;
+  padding-top: 50%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background: url('../img/hero_image.jpg') no-repeat,;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: cover;
+  background-color: black;
+  background-position: 50% 50%;
+}*/
+
+/*.colayer {
+    background-color: rgba(24, 20, 133, 0.3);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+}*/
 
-.top .title{
-    display: block;
-    width: 100%;
-    float: left;
+/*.title {
     color: white;
+    text-align: center;
     font-family: "DIN_lite", arial;
-    font-size: 36px;
-    line-height: 1.3;
-    /*background: rgba(255, 255, 255, .7);*/
-    padding: 0 40% 40px 40px;
-    margin: 0!important;
-    overflow: hidden;
-    font-weight: lighter;
+    font-size: 2em;
+}*/
 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
 
-}
 
-.content_header{
+/*.content_header{
     position: absolute;
-    bottom: 0;
+    /*bottom: 0;*/
     margin: 0 auto;
     /*left: 50%;
     margin-left: -46.36363636363637%;*/
-}
+}*/
 
 .content{
     color: #9fa4ae;
     font-family: 'DIN', arial;
     font-size: 17px;
     line-height: 24px;
-    padding: 40px;
+    padding: 60px;
     background: #fff;
 
     -webkit-box-sizing: border-box;
@@ -516,9 +465,10 @@ h5, h6          { font-weight: bolder }*/
 .content p{
     /*padding-left: 25px;*/
     color: #79716e;
-    font-family: 'Martel', serif;
-    font-size: 16px;
-    line-height: 1.8;
+    font-family: 'DIN', serif;
+    font-weight: lighter;
+    font-size: 1.15em;
+    line-height: 1.5;
     margin-bottom: 60px;
 }
 
@@ -633,7 +583,7 @@ h5, h6          { font-weight: bolder }*/
         min-height: 140px;
         max-height: 250px;
         /*padding: 45px;*/
-        background-color: #F2F1F0;
+        background-color: #f9f6ea;
         /*position: relative;*/
         /*text-align: center;*/
     }
@@ -680,7 +630,7 @@ h5, h6          { font-weight: bolder }*/
     header nav ul li a{
         display: inline-block;
         padding: 15px;
-        color: #181485;
+        color: #3d566b;
         font-family: "DIN", arial;
         font-size: 18px;
         text-transform: uppercase;
