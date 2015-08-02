@@ -16,12 +16,37 @@
 	<link href='http://fonts.googleapis.com/css?family=Karma' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+		<script>
+	    jQuery(document).ready(function($) {
+	        //lets handle the button click event
+	        $('.to-top-btn').on('click', function(e) {
+	            $('body, html').stop().animate({scrollTop: 0}, 'slow', 'swing');
+	            e.preventDefault();
+	        });
+
+	        //lets show the button when the page scroll to about 400 pixels
+	        //change the value to your desired offset
+	        $(window).scroll(function() {
+	            if($(window).scrollTop() > 200){
+	                //show the button when scroll offset is greater than 400 pixels
+	                $('.to-top-btn').fadeIn('slow');
+	            }else{
+	                //hide the button if scroll offset is less than 400 pixels
+	                $('.to-top-btn').fadeOut('slow');
+	            }
+	        });
+	    });
+		</script>
 </head>
 <body>
 
+	<a href="#" class="to-top-btn">
+    	<img src="img/gotop.png" alt="back-to-top">
+	</a>
+
 	<header>
 		<div class="logo">
-			<a href="index.html"><img src="img/logo_blue.png" title="Magnetic" alt="Magnetic"/></a>
+			<a href="index.html"><img src="img/logo_blue.png" title="Stewdio" alt="Stewdio"/></a>
 		</div><!-- end logo -->
 
 		<!-- <div id="menu_icon"></div> -->
@@ -39,22 +64,28 @@
 
 		<section class="top">
 			<div class="wrapper content_header clearfix">
-
-				<h2 class="title">The Project Title</h2>
-
-				<p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend nulla et lorem sodales bibendum. Donec velit nunc, egestas in vestibulum ac, blandit in diam. Integer sit amet viverra augue. Nam rutrum facilisis ante vel mattis. Sed at dui dapibus, accumsan dolor quis, pretium sapien</p>
-				<div class="work_nav">
-				</div><!-- end work_nav -->
+				<div class="title">
+					<h2>The Project Title</h2>
+				</div>
+				<div class="summary"
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend nulla et lorem sodales bibendum. Donec velit nunc, egestas in vestibulum ac, blandit in diam. Integer sit amet viverra augue. Nam rutrum facilisis ante vel mattis. Sed at dui dapibus, accumsan dolor quis, pretium sapien</p>
+				</div>
+				<div class="credit">
+					<p>Art Direction and Design: Andrew Stewart</p>
+				</div>
 			</div>
 		</section><!-- end top -->
 
 		<section>
 			<div class="work_large">
+				<img src="img/4sauces.png" alt="work" />
+				<img src="img/hero_image.jpg" alt="work" />
+				<img src="img/4sauces.png" alt="work" />
+				<img src="img/hero_image.jpg" alt="work" />
+				<img src="img/4sauces.png" alt="work" />
 				<img src="img/hero_image.jpg" alt="work" />
 			</div>
-			<div class="work_large">
-				<img src="img/hero_image.jpg" alt="work" />
-			</div>
+
 		</section>
 
 		<!-- <section class="wrapper">
