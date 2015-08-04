@@ -76,57 +76,16 @@
 }
 
 @font-face {
-    font-family: 'schemebook';
-    src: url('fonts/schemebk-regular-webfont.eot');
-    src: url('fonts/schemebk-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/schemebk-regular-webfont.woff2') format('woff2'),
-         url('fonts/schemebk-regular-webfont.woff') format('woff'),
-         url('fonts/schemebk-regular-webfont.ttf') format('truetype'),
-         url('fonts/schemebk-regular-webfont.svg#schemebook') format('svg');
+    font-family: 'modernicabook';
+    src: url('fonts/latinotype_-_modernicabook-webfont.eot');
+    src: url('fonts/latinotype_-_modernicabook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/latinotype_-_modernicabook-webfont.woff2') format('woff2'),
+         url('fonts/latinotype_-_modernicabook-webfont.woff') format('woff'),
+         url('fonts/latinotype_-_modernicabook-webfont.ttf') format('truetype'),
+         url('latinotype_-_modernicabook-webfont.svg#modernicabook') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}
-
-
-@font-face {
-    font-family: 'schemelight';
-    src: url('fonts/schemelt-regular-webfont.eot');
-    src: url('fonts/schemelt-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/schemelt-regular-webfont.woff2') format('woff2'),
-         url('fonts/schemelt-regular-webfont.woff') format('woff'),
-         url('fonts/schemelt-regular-webfont.ttf') format('truetype'),
-         url('fonts/schemelt-regular-webfont.svg#schemelight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'schemebold';
-    src: url('schemerg-bold-webfont.eot');
-    src: url('schemerg-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('schemerg-bold-webfont.woff2') format('woff2'),
-         url('schemerg-bold-webfont.woff') format('woff'),
-         url('schemerg-bold-webfont.ttf') format('truetype'),
-         url('schemerg-bold-webfont.svg#schemebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'scheme_rgregular';
-    src: url('schemerg-regular-webfont.eot');
-    src: url('schemerg-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('schemerg-regular-webfont.woff2') format('woff2'),
-         url('schemerg-regular-webfont.woff') format('woff'),
-         url('schemerg-regular-webfont.ttf') format('truetype'),
-         url('schemerg-regular-webfont.svg#scheme_rgregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 
@@ -158,7 +117,7 @@ h1, h2, h3, h4, h5 ,h6{
 }
 
 h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.8em; margin: .75em 0 }
+h2              { font-size: 1.6em; margin: .75em 0 }
 h3              { font-size: 1.17em; margin: .83em 0 }
 h5              { font-size: .83em; margin: 1.5em 0 }
 h6              { font-size: .75em; margin: 1.67em 0 }
@@ -205,7 +164,6 @@ h5, h6          { font-weight: bolder }*/
         margin: 60px 0 0 0;
         width: 140px;
           /*display: none;*/
-
     }
 
     header .logo{
@@ -214,7 +172,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header .intro{
-        padding: 0 20px;
+        padding: 0 25px;
         font-family: 'DIN', sans-serif;
         font-size: 1em;
         line-height: 1.5;
@@ -222,6 +180,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header nav ul{
+        padding: 0 20px;
         display: block;
         overflow: hidden;
         margin-top: 45px;
@@ -250,7 +209,7 @@ h5, h6          { font-weight: bolder }*/
 
     header nav ul li a:hover,
     header nav ul li a.selected{
-        color: #969595;
+        color: tomato;
     }
 
 
@@ -385,7 +344,7 @@ h5, h6          { font-weight: bolder }*/
     padding: 10px;
     border-radius: 5px;
     z-index: 100;
-    display: none;
+    /*display: none;*/
 }
 
 .top{
@@ -461,7 +420,6 @@ h5, h6          { font-weight: bolder }*/
 .content h6{
     color: #4b4848;
     font-family: "DIN", arial;
-    /*font-weight: bold;*/
     line-height: 28px;
     margin-bottom: 30px;
 
@@ -601,7 +559,7 @@ h5, h6          { font-weight: bolder }*/
         float: right;
         list-style: none;
         margin: 50px 40px 0 0;
-        padding:0;
+        padding: 10px 0 0 0;
     }
 
     header nav ul li{
@@ -609,7 +567,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header nav ul li a{
-        display: inline-block;
+        display: inline;
         padding: 15px;
         color: #3d566b;
         font-family: "DIN", arial;
@@ -619,7 +577,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header nav ul li a:hover{
-        border-top: 5px solid tomato;
+        border-top: 3px solid tomato;
         color: tomato;
 
     }
@@ -650,21 +608,37 @@ h5, h6          { font-weight: bolder }*/
         width: 100%;
     }
 
+    header {
+      height: 120px;
+      margin-bottom: -40px;
+
+    }
+
     header .logo{
-      float: none;
-      display: block;
+      width: 115px;
+      display: inline-block;
       margin: 0 auto;
-      padding: 45px 0 30px;
+      padding: 30px 10px 0px 30px;
       text-align: center;
     }
 
     header nav{
         text-align: center;
-        float: none;
-        display: block;
+        /*float: none;*/
+        display: inline-block;
         list-style: none;
         margin: 0 auto;
-        padding: 0 0 30px;
+        padding: 45px 20px 0 0;
+    }
+
+    header nav ul li a{
+        display: inline;
+        padding: 8px;
+        color: #3d566b;
+        font-family: "DIN", arial;
+        font-size: .9em;
+        text-transform: uppercase;
+        text-decoration: none;
     }
 
 }
