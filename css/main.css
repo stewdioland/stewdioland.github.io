@@ -614,15 +614,15 @@ h5, h6          { font-weight: bolder }*/
 
     header {
       height: 120px;
-      margin-bottom: -40px;
+      margin-bottom: -70px;
 
     }
 
     header .logo{
-      width: 105px;
+      width: 90px;
       display: inline-block;
       margin: 0 auto;
-      padding: 30px 10px 0px 30px;
+      padding: 20px 10px 0px 30px;
       text-align: center;
     }
 
@@ -632,7 +632,7 @@ h5, h6          { font-weight: bolder }*/
         display: inline-block;
         list-style: none;
         margin: 0 auto;
-        padding: 45px 25px 0 0;
+        padding: 30px 25px 0 0;
     }
 
     header nav ul li a{
