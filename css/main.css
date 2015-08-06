@@ -171,6 +171,10 @@ h5, h6          { font-weight: bolder }*/
         width: 130px;
     }
 
+    .tiny {
+        font-size: .7em;
+    }
+
     header .intro{
         padding: 0 25px;
         font-family: 'DIN', sans-serif;
@@ -615,7 +619,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header .logo{
-      width: 115px;
+      width: 105px;
       display: inline-block;
       margin: 0 auto;
       padding: 30px 10px 0px 30px;
@@ -628,7 +632,7 @@ h5, h6          { font-weight: bolder }*/
         display: inline-block;
         list-style: none;
         margin: 0 auto;
-        padding: 45px 20px 0 0;
+        padding: 45px 25px 0 0;
     }
 
     header nav ul li a{
