@@ -617,7 +617,7 @@ h5, h6          { font-weight: bolder }*/
     }
 
     header .logo{
-      width: 85px;
+      width: 90px;
       display: inline-block;
       margin: 0 auto;
       padding: 20px 0px 0px 20px;
@@ -630,16 +630,15 @@ h5, h6          { font-weight: bolder }*/
         display: inline-block;
         list-style: none;
         margin: 0 auto;
-        padding: 30px 15px 0 0;
+        padding: 30px 13px 0 0;
     }
 
     header nav ul li a{
         display: inline;
-        padding: 6px;
+        padding: 7px;
         color: #3d566b;
         font-family: "DIN", arial;
-        font-size: .8em;
-        font-weight: bolder;
+        font-size: .9em;
         text-transform: uppercase;
         text-decoration: none;
     }
