@@ -4,151 +4,101 @@
 	<title>Art Direction and Design by Andrew Stewart</title>
 	<meta charset="utf-8">
 	<meta name="author" content="stewdioland.com">
-	<meta name="description" content="Magnetic is a stunning responsive HTML5/CSS3 photography/portfolio website template"/>
+	<meta name="description" content="Andrew Stewart is a designer and art director based in Atlanta, GA"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Rhodium+Libre' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Martel' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Vesper+Libre' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Karma' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Work+Sans:400,300' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+		<script>
+	    jQuery(document).ready(function($) {
+	        //lets handle the button click event
+	        $('.to-top-btn').on('click', function(e) {
+	            $('body, html').stop().animate({scrollTop: 0}, 'slow', 'swing');
+	            e.preventDefault();
+	        });
+
+	        //lets show the button when the page scroll to about 400 pixels
+	        //change the value to your desired offset
+	        $(window).scroll(function() {
+	            if($(window).scrollTop() > 400){
+	                //show the button when scroll offset is greater than 400 pixels
+	                $('.to-top-btn').fadeIn('slow');
+	            }else{
+	                //hide the button if scroll offset is less than 400 pixels
+	                $('.to-top-btn').fadeOut('slow');
+	            }
+	        });
+	    });
+		</script>
 </head>
+
 <body>
 
+	<a href="#" class="to-top-btn">
+    	<img src="img/gotop.png" alt="back-to-top">
+	</a>
+
 	<header>
-		<img class="portrait" src="img/me.png" alt="Andrew">
 		<div class="logo">
 			<a href="index.html"><img src="img/logo_blue.png" title="Stewdio" alt="Stewdio"/></a>
-		</div><!-- end logo -->
-
+		</div>
+		<img class="portrait" src="img/me.png" alt="Andrew">
 		<div class="intro">
-			<p>Andrew Stewart is a designer based in Atlanta, GA. He collaborates with and leads teams to better the future of humanity at <a href="http://www.kidsii.com">Kids II</a>.</p>
-		</div><!-- end logo -->
-
-		<!-- <div id="menu_icon"></div> -->
+			<p>Andrew Stewart is a designer based in Atlanta, GA. He is currently working to better the future of humanity as a member of the <a href="http://www.kidsii.com">Kids II</a> team.</p>
+		</div>
 		<nav>
 			<ul>
-				<li><a href="index.html" class="selected">Work</a></li>
+				<li><a href="index.html">Work</a></li>
 				<li><a href="contact.html">About</a></li>
 			</ul>
 		</nav><!-- end navigation menu -->
+
 	</header><!-- end header -->
 
 	<section class="main clearfix">
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work1.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Swaddle Shop Site</h1>
-						<h5>UX / INTERACTIVE</h4>
-						<!-- <h4>Responsive Redesign</h4> -->
-					</div>
-				</div>
-			</a>
-		</div>
 
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work2.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Ingenuity<sup>TM</sup> Campaigns</h1>
-						<h5>PRINT / DIGITAL</h4>
-					</div>
+		<section class="top">
+			<div class="wrapper content_header clearfix">
+				<div class="title">
+					<h2>Kids II Catalog App</h2>
 				</div>
-			</a>
-		</div>
+				<div class="summary"
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend nulla et lorem sodales bibendum. Donec velit nunc, egestas in vestibulum ac, blandit in diam. Integer sit amet viverra augue. Nam rutrum facilisis ante vel mattis. Sed at dui dapibus, accumsan dolor quis, pretium sapien</p>
+				</div>
+				<div class="credit">
+					<p>Art Direction and Design: Andrew Stewart / UX: Andrew Stewart, Robbie Beers</p>
+				</div>
+			</div>
+		</section>
 
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work3.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Chattanooga Start-Ups</h1>
-						<h5>BRAND ID / PACKAGING</h4>
-					</div>
-				</div>
-			</a>
-		</div>
+		<section class="gallery">
+			<div class="work_large">
+				<img src="img/dps_1.jpg" alt="work" />
+				<img src="img/k2_ad2.jpg" alt="work" />
+				<img src="img/k2_ad1.jpg" alt="work" />
+				<img src="img/animation.gif" alt="work" />
+			</div>
 
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work4.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Comfort & Harmony<sup>TM</sup> Showroom App</h1>
-						<h5>UX / PROTOTYPING</h4>
+			<section class="top">
+				<div class="wrapper content_header clearfix">
+					<div class="title">
+						<h2>Kids II Catalog App</h2>
+					</div>
+					<div class="summary"
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend nulla et lorem sodales bibendum. Donec velit nunc, egestas in vestibulum ac, blandit in diam. Integer sit amet viverra augue. Nam rutrum facilisis ante vel mattis. Sed at dui dapibus, accumsan dolor quis, pretium sapien</p>
+					</div>
+					<div class="credit">
+						<p>Art Direction and Design: Andrew Stewart / UX: Andrew Stewart, Robbie Beers</p>
 					</div>
 				</div>
-			</a>
-		</div>
+			</section>
 
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work5.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Environmental</h1>
-						<h5>CORPORATE / RETAIL</h4>
-					</div>
+			<section class="gallery">
+				<div class="work_large">
+					<img src="img/ss_gif.gif" alt="work" />
 				</div>
-			</a>
-		</div>
 
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work6.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Oball<sup>TM</sup> Rebrand</h1>
-						<h5>BRAND ID / PACKAGING</h4>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work7.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Print Design</h1>
-						<h5>PRINT / EDITORIAL</h4>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work8.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Various Brand ID</h1>
-						<h5>BRAND ID / LOGO MARKS</h4>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="work">
-			<a href="inner.html">
-				<img src="img/work9.jpg" class="media" alt=""/>
-				<div class="caption">
-					<div class="work_title">
-						<h1>Ceramics</h1>
-						<h5>NO, SERIOUSLY</h4>
-					</div>
-				</div>
-			</a>
-		</div>
 
 	</section><!-- end main -->
 
