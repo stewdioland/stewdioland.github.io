@@ -73,7 +73,6 @@ header nav ul li a{
 h1, h2, h3, h4, h5 ,h6{
     color: #4b4848;
     font-family: "DIN", arial;
-    /*letter-spacing: 1px;*/
     line-height: 1.3;
 }
 
@@ -141,7 +140,7 @@ sup {font-size:xx-small; vertical-align:super;}
     header .intro{
         padding: 0 25px;
         font-family: 'DIN', sans-serif;
-        font-size: 1em;
+        font-size: .9em;
         line-height: 1.4;
 				letter-spacing: normal;
         color: #847e7e;
@@ -172,7 +171,6 @@ sup {font-size:xx-small; vertical-align:super;}
         border-bottom: .5px solid;
         text-transform: uppercase;
         letter-spacing: .8px;
-        color: #847e7e;
     }
 
     header nav ul li a:hover,
@@ -309,12 +307,16 @@ sup {font-size:xx-small; vertical-align:super;}
     color: white;
     text-align: center;
     font-family: "DIN_lite", arial;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 1.1em;
+    line-height: 1.5;
     letter-spacing: .5px;
     padding: 5% 15% 8%;
     margin: 0!important;
 }
+
+/*#first {
+		background-color: #df5839;
+}*/
 
 
 .title h2{
@@ -481,9 +483,15 @@ sup {font-size:xx-small; vertical-align:super;}
         position: relative;
         padding-left: 0;
     }
-    #map{
-        margin: 0!important;
-    }
+
+		.top {
+				font-family: "DIN", arial;
+		}
+
+		.title h2 {
+				font-family: "DIN", arial;
+				letter-spacing: normal;
+		}
 }
 
 @media (max-width:550px){
@@ -538,13 +546,11 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				padding: 5% 5% 10%;
-				font-family: "DIN", arial;
+				padding: 25% 10%;
 		}
 
 		.title h2 {
-				font-family: "DIN", arial;
-				font-size: 1.35em;
+				font-size: 1.4em;
 		}
 
 }
