@@ -303,13 +303,13 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #403f42;
+    background-color: #635f5f;
     color: white;
     text-align: center;
     font-family: "DIN_lite", arial;
     font-size: 1.1em;
     line-height: 1.5;
-    letter-spacing: .5px;
+    /*letter-spacing: .5px;*/
     padding: 5% 15% 8%;
     margin: 0!important;
 }
