@@ -485,7 +485,6 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		.top {
 				font-family: "DIN", arial;
-
 		}
 
 
@@ -548,12 +547,14 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				padding: 20% 10%;
+				padding: 15% 7%;
+				font-size: .9em;
 		}
 
 		.title h2 {
 			font-size: 1.2em;
 			text-transform: uppercase;
+			font-weight: bolder;
 		}
 
 
