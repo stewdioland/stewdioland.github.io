@@ -317,7 +317,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .title h2{
-	font-size: 1.4em;
+	font-size: 1.6em;
   font-family: "DIN_lite", arial;
   color: #d0cccc;
 }
@@ -485,11 +485,13 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		.top {
 				font-family: "DIN", arial;
+
 		}
 
 
 		.title h2 {
 				font-family: "DIN", arial;
+				font-size: 1.5em;
 				letter-spacing: -1px;
 
 		}
