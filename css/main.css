@@ -491,6 +491,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 		.title h2 {
+				font-size: 1.7em;
 				font-family: "DIN", arial;
 				letter-spacing: -1px;
 
@@ -549,11 +550,8 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				padding: 25% 10%;
+				padding: 20% 10%;
 		}
 
-		.title h2 {
-				font-size: 1.5em;
-		}
 
 }
