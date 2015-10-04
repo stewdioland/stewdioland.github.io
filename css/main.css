@@ -141,7 +141,7 @@ sup {font-size:xx-small; vertical-align:super;}
         padding: 0 25px;
         font-family: 'DIN', sans-serif;
         font-size: .95em;
-        line-height: 1.4;
+        line-height: 1.5;
 				letter-spacing: 0px;
         color: #847e7e;
     }
@@ -308,6 +308,7 @@ sup {font-size:xx-small; vertical-align:super;}
     font-family: "DIN_lite", arial;
     padding: 5% 15% 8%;
     margin: 0!important;
+		line-height: 1.5;
 }
 
 /*#first {
@@ -316,21 +317,18 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .title h2{
-	font-size: 1.5em;
+	font-size: 1.4em;
   font-family: "DIN_lite", arial;
   color: #d0cccc;
-  line-height: 1.4;
 }
 
 .summary {
-	font-size: 1.2em;
-	line-height: 1.6;
+	font-size: 1.1em;
 }
 
 .credit {
     padding-top: 25px;
     font-size: .9em;
-    line-height: 1.6;
 }
 
 .work_large img{
@@ -491,7 +489,6 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 		.title h2 {
-				font-size: 1.7em;
 				font-family: "DIN", arial;
 				letter-spacing: -1px;
 
