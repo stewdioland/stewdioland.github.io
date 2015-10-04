@@ -493,9 +493,13 @@ sup {font-size:xx-small; vertical-align:super;}
 				font-family: "DIN", arial;
 		}
 
+		.summary {
+				letter-spacing: -.3px;
+		}
+
 		.title h2 {
 				font-family: "DIN", arial;
-				letter-spacing: normal;
+				letter-spacing: -.6px;
 		}
 }
 
