@@ -167,7 +167,6 @@ sup {font-size:xx-small; vertical-align:super;}
         font-family: "DIN", arial;
         font-size: 18px;
         text-decoration: none;
-        letter-spacing: .5px;
         border-bottom: .5px solid;
         text-transform: uppercase;
         letter-spacing: .8px;
@@ -321,20 +320,17 @@ sup {font-size:xx-small; vertical-align:super;}
   font-family: "DIN_lite", arial;
   color: #d0cccc;
   line-height: 1.4;
-	letter-spacing: 0px;
 }
 
 .summary {
-	font-size: 1.15em;
+	font-size: 1.2em;
 	line-height: 1.6;
-	letter-spacing: .3px;
 }
 
 .credit {
     padding-top: 25px;
-    font-size: .8em;
+    font-size: .9em;
     line-height: 1.6;
-    letter-spacing: .5px;
 }
 
 .work_large img{
@@ -493,13 +489,11 @@ sup {font-size:xx-small; vertical-align:super;}
 				font-family: "DIN", arial;
 		}
 
-		.summary {
-				letter-spacing: -.3px;
-		}
 
 		.title h2 {
 				font-family: "DIN", arial;
-				letter-spacing: -.6px;
+				letter-spacing: -1px;
+
 		}
 }
 
