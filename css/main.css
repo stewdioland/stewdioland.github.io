@@ -49,6 +49,36 @@
 	font-style: normal;
 }
 
+/*@font-face {
+	font-family: 'DIN';
+	src: 	url('fonts/DINNextLTPro-Regular.eot');
+	src: 	url('fonts/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+				url('fonts/DINNextLTPro-Regular.woff') format('woff'),
+				url('fonts/DINNextLTPro-Regular.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN_bold';
+	src: 	url('fonts/DINNextLTPro-Bold.eot');
+	src: 	url('fonts/DINNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+				url('fonts/DINNextLTPro-Bold.woff') format('woff'),
+				url('fonts/DINNextLTPro-Bold.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN_lite';
+	src: 	url('fonts/DINNextLTPro-Light.eot');
+	src: 	url('fonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+				url('fonts/DINNextLTPro-Light.woff') format('woff'),
+				url('fonts/DINNextLTPro-Light.ttf')  format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}*/
+
 
 /*  General CSS*/
 body{
@@ -304,7 +334,7 @@ sup {font-size:xx-small; vertical-align:super;}
     color: white;
     text-align: center;
     font-family: "DIN_lite", arial;
-    padding: 7% 15%;
+    padding: 7% 12%;
     margin: 0!important;
 		line-height: 1.5;
 }
@@ -315,18 +345,20 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
 .title h2{
-	font-size: 1.6em;
-  font-family: "DIN_lite", arial;
+	font-size: 1.1em;
+  font-family: "DIN", arial;
+	text-transform: uppercase;
+	letter-spacing: 1px;
   color: #d0cccc;
 }
 
 .summary {
-	font-size: 1.1em;
+	font-size: 1.25em;
 }
 
 .credit {
     padding-top: 25px;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .work_large img{
@@ -493,8 +525,6 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		.title h2 {
 				font-family: "DIN", arial;
-				letter-spacing: -1px;
-
 		}
 }
 
