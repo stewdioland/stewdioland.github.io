@@ -24,41 +24,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 
-/*@font-face {
-	font-family:"karla";
-	 src:  	url('fonts/DINNextRoundedLTPro-Regular_gdi.eot');
-	 src:   url('fonts/DINNextRoundedLTPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-		    	url('fonts/DINNextRoundedLTPro-Regular_gdi.woff') format('woff'),
-		      url('fonts/DINNextRoundedLTPro-Regular_gdi.ttf') format('truetype'),
-		      url('fonts/DINNextRoundedLTPro-Regular_gdi.svg#DIN') format('svg');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
-@font-face {
-	font-family: 'karla';
-		src: 	url('fonts/DINNextRoundedLTPro-Light.eot');
-		src: 	url('fonts/DINNextRoundedLTPro-Light.eot?#iefix') format('embedded-opentype'),
-		  		url('fonts/DINNextRoundedLTPro-Light.woff') format('woff'),
-					url('fonts/DINNextRoundedLTPro-Light.ttf')  format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family:'karla';
-		src: 	url('fonts/DINNextRoundedLTPro-Medium_gdi.eot');
-		src: 	url('fonts/DINNextRoundedLTPro-Medium_gdi.eot?#iefix') format('embedded-opentype'),
-					url('fonts/DINNextRoundedLTPro-Medium_gdi.woff') format('woff'),
-					url('fonts/DINNextRoundedLTPro-Medium_gdi.ttf') format('truetype'),
-					url('fonts/DINNextRoundedLTPro-Medium_gdi.svg#DINNextRoundedLTPro-Medium') format('svg');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}*/
 
 
 
@@ -95,6 +60,14 @@ h5              { font-size: .83em; margin: 1.5em 0; color: white;}
 h6              { font-size: .75em; margin: 1.67em 0 }
 /*h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }*/
+
+hr {
+  width: 33%;
+  height: 1px;
+  display: block;
+  margin: 25px auto;
+  background-color:#847e7e;
+}
 
 sup {font-size:xx-small; vertical-align:super;}
 
@@ -140,7 +113,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 130px;
+        width: 125px;
     }
 
 		header .portrait{
@@ -249,13 +222,31 @@ sup {font-size:xx-small; vertical-align:super;}
 		line-height: 1.5;
 }
 
+.top2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #eae9e9;
+    color: #403f42;
+    text-align: center;
+    font-family: "karla", arial;
+    padding: 7% 12%;
+    margin: 0!important;
+		line-height: 1.5;
+}
+
 /*#first {
 		background-color: #df5839;
 }*/
 
 
 .title h2{
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-weight: normal;
   font-family: "karla", arial;
   color: #00aeef;
@@ -263,7 +254,7 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .summary {
-	font-size: 1.25em;
+	font-size: 1.2em;
 }
 
 .credit {
@@ -428,7 +419,6 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				font-family: "karla", arial;
 				padding: 7%;
 		}
 
@@ -486,15 +476,24 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		.top {
 				padding: 15% 8%;
-				font-size: .9em;
 		}
 
 		.title h2 {
-			font-size: 1em;
+			font-size: .9em;
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			font-weight: bold;
 		}
+
+
+    .summary {
+    	font-size: .9em;
+    }
+
+    .credit {
+        padding-top: 25px;
+        font-size: .7em;
+    }
 
 
 }
