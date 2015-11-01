@@ -29,7 +29,7 @@
 
 /*  General CSS*/
 body{
-    background: white;
+    background: #eae9e9;
 }
 
 .wrapper{
@@ -475,14 +475,18 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				padding: 15% 8%;
+				padding: 8%;
 		}
 
+    .top2 {
+        padding: 8%;
+    }
+
 		.title h2 {
-			font-size: .9em;
-			letter-spacing: 1px;
+			font-size: 1.3em;
+			/*letter-spacing: 1px;
 			text-transform: uppercase;
-			font-weight: bold;
+			font-weight: bold;*/
 		}
 
 
