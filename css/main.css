@@ -113,7 +113,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 135px;
+        width: 145px;
     }
 
 		header .portrait{
@@ -232,11 +232,11 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #e9e1f0;
+    background-color: #dbcaef;
     color: #403f42;
     text-align: center;
     font-family: "karla", arial;
-    padding: 7% 12%;
+    padding: 0 12%;
     margin: 0!important;
 		line-height: 1.5;
 }
