@@ -113,7 +113,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 145px;
+        width: 130px;
     }
 
 		header .portrait{
@@ -214,11 +214,11 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #cbdfe9;
+    background-color: #d6e6ea;
     color: #403f42;
     text-align: center;
     font-family: "karla", arial;
-    padding: 7% 12%;
+    padding: 0 12%;
     margin: 0!important;
 		line-height: 1.5;
 }
@@ -232,7 +232,7 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #dbcaef;
+    background-color: #efcedb;
     color: #403f42;
     text-align: center;
     font-family: "karla", arial;
@@ -476,11 +476,11 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
 		.top {
-				padding: 8%;
+				padding: 0 8%;
 		}
 
     .top2 {
-        padding: 8%;
+        padding: 0 8%;
     }
 
 		.title h2 {
