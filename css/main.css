@@ -113,7 +113,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 130px;
+        width: 135px;
     }
 
 		header .portrait{
@@ -205,7 +205,7 @@ sup {font-size:xx-small; vertical-align:super;}
     display: none;
 }
 
-.top{
+.text_back{
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -214,7 +214,6 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #d6e6ea;
     color: #403f42;
     text-align: center;
     font-family: "karla", arial;
@@ -223,7 +222,32 @@ sup {font-size:xx-small; vertical-align:super;}
 		line-height: 1.5;
 }
 
-.top2{
+#back1{
+    background-color: #ebd8e0;
+}
+
+#back2{
+    background-color: #e9f2d1;
+}
+
+#back3{
+    background-color: #f5e5ad;
+}
+
+#back4{
+    background-color: #f8cccc;
+}
+
+#back5{
+    background-color: #f8cccc;
+}
+
+#arrow{
+    background-color: #e9f2d1;
+    width: 100px;
+    margin: 50px;
+}
+/*.top2{
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -232,14 +256,14 @@ sup {font-size:xx-small; vertical-align:super;}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #efcedb;
+    background-color: #f8cccc;
     color: #403f42;
     text-align: center;
     font-family: "karla", arial;
     padding: 0 12%;
     margin: 0!important;
 		line-height: 1.5;
-}
+}*/
 
 /*#first {
 		background-color: #df5839;
