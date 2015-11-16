@@ -113,7 +113,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 135px;
+        width: 130px;
     }
 
 		header .portrait{
@@ -220,6 +220,7 @@ sup {font-size:xx-small; vertical-align:super;}
     padding: 0 12%;
     margin: 0!important;
 		line-height: 1.5;
+    background-color: #eae9e9;
 }
 
 #back1{
@@ -242,33 +243,16 @@ sup {font-size:xx-small; vertical-align:super;}
     background-color: #f8cccc;
 }
 
+#bio{
+    background-color: #eae9e9;
+    padding: 12%;
+}
+
 #arrow{
     background-color: #e9f2d1;
     width: 100px;
     margin: 50px;
 }
-/*.top2{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    background-color: #f8cccc;
-    color: #403f42;
-    text-align: center;
-    font-family: "karla", arial;
-    padding: 0 12%;
-    margin: 0!important;
-		line-height: 1.5;
-}*/
-
-/*#first {
-		background-color: #df5839;
-}*/
-
 
 .title h2{
 	font-size: 1.6em;
@@ -279,12 +263,12 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .summary {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .credit {
     padding-top: 25px;
-    font-size: 1em;
+    font-size: .9em;
 }
 
 .work_large img{
@@ -437,6 +421,7 @@ sup {font-size:xx-small; vertical-align:super;}
     .main .work{
         width: 50%;
     }
+    
     .main{
         width: 100%;
         position: relative;
@@ -503,10 +488,6 @@ sup {font-size:xx-small; vertical-align:super;}
 				padding: 0 8%;
 		}
 
-    .top2 {
-        padding: 0 8%;
-    }
-
 		.title h2 {
 			font-size: 1.3em;
 			/*letter-spacing: 1px;
@@ -516,7 +497,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
     .summary {
-    	font-size: .9em;
+    	font-size: .85em;
     }
 
     .credit {
