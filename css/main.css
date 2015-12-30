@@ -120,13 +120,13 @@
 
 
 @font-face {
-    font-family: 'camptonsemibold';
+    font-family: 'camptonmedium';
     src: url('fonts/campton_semibold-webfont.eot');
     src: url('fonts/campton_semibold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/campton_semibold-webfont.woff2') format('woff2'),
          url('fonts/campton_semibold-webfont.woff') format('woff'),
          url('fonts/campton_semibold-webfont.ttf') format('truetype'),
-         url('fonts/campton_semibold-webfont.svg#camptonsemibold') format('svg');
+         url('fonts/campton_semibold-webfont.svg#camptonmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -365,14 +365,14 @@ sup {font-size:xx-small; vertical-align:super;}
 .title h2{
 	font-size: .9em;
   letter-spacing: .5px;
-  font-family: "camptonsemibold", arial;
+  font-family: "camptonmedium", arial;
   text-transform: uppercase;
   color: #403f42;
 	padding-bottom: 15px;
 }
 
 .summary {
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .credit {
