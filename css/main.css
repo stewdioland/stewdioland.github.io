@@ -278,7 +278,7 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .title h2{
-	/*font-family: "noe";*/
+	font-family: "noe";
 	font-size: 1.8em;
   letter-spacing: .3px;
   /*text-transform: uppercase;*/
