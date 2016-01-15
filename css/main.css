@@ -136,7 +136,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 		header .logo{
         margin: 40px auto;
-        width: 130px;
+        width: 120px;
     }
 
 		header .portrait{
@@ -278,8 +278,7 @@ sup {font-size:xx-small; vertical-align:super;}
 }
 
 .title h2{
-	font-family: "noe";
-	font-size: 1.8em;
+	font-size: 1.7em;
   letter-spacing: .3px;
   /*text-transform: uppercase;*/
   color: #403f42;
