@@ -35,14 +35,15 @@
 }
 
 @font-face {
-	font-family: 'Noe';
-	src: url('fonts/NoeDisplay-Bold.eot');
-	src: url('fonts/NoeDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/NoeDisplay-Bold.woff') format('woff'),
-		url('fonts/NoeDisplay-Bold.ttf') format('truetype');
+	font-family: 'Nitti Grot Bold';
+	src: url('fonts/NittiGrotesk-Bold.eot');
+	src: url('fonts/NittiGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NittiGrotesk-Bold.woff') format('woff'),
+		url('fonts/NittiGrotesk-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
+
 
 
 
@@ -509,7 +510,8 @@ sup {font-size:xx-small; vertical-align:super;}
 		}
 
     .title h2{
-    	font-size: 1em;
+			font-family: "Nitti Grot Bold", arial, sans-serif;
+    	font-size: 1.1em;
       letter-spacing: .5px;
       text-transform: uppercase;
       font-weight: bold;
@@ -517,7 +519,7 @@ sup {font-size:xx-small; vertical-align:super;}
 
 
     .summary {
-    	font-size: 1em;
+    	font-size: 1.1em;
     }
 
     .credit {
