@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Art Direction and Design by Andrew Stewart</title>
+	<meta charset="utf-8">
+	<meta name="author" content="stewdioland.com">
+	<meta name="description" content="Andrew Stewart is a designer and art director based in Atlanta, GA"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+		<script>
+	    jQuery(document).ready(function($) {
+	        //lets handle the button click event
+	        $('.to-top-btn').on('click', function(e) {
+	            $('body, html').stop().animate({scrollTop: 0}, 'slow', 'swing');
+	            e.preventDefault();
+	        });
+
+	        //lets show the button when the page scroll to about 400 pixels
+	        //change the value to your desired offset
+	        $(window).scroll(function() {
+	            if($(window).scrollTop() > 400){
+	                //show the button when scroll offset is greater than 400 pixels
+	                $('.to-top-btn').fadeIn('slow');
+	            }else{
+	                //hide the button if scroll offset is less than 400 pixels
+	                $('.to-top-btn').fadeOut('slow');
+	            }
+	        });
+	    });
+		</script>
+</head>
+
+<body class="about">
+
+	<a href="#" class="to-top-btn">
+    	<img src="img/gotop2.png" alt="back-to-top">
+	</a>
+
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo_blue.png" title="Stewdio" alt="Stewdio"/></a>
+		</div>
+		<img class="portrait" src="img/me.png" alt="Andrew">
+		<div class="intro">
+			<p>Stewdio = Andrew Stewart. </br> I'm a designer and art director based in Atlanta, where I'm working to better the future of humanity as a member of the <a href="http://www.kidsii.com">Kids II</a> in-house team.</p>
+		</br>
+			<p>You can reach me at <a href="mailto:andrew@stewdioland.com">andrew@stewdioland.com</a> </p>
+		</div>
+		<nav>
+			<ul>
+				<li class="home"><a href="index.html">Work</a></li>
+				<li class="about"><a href="about.html">About</a></li>
+			</ul>
+		</nav><!-- end navigation menu -->
+
+	</header><!-- end header -->
+
+	<section class="main clearfix">
+
+		<!-- <section class="gallery">
+				<div class="work_large">
+					<img src="img/reading.jpg" alt="work" />
+				</div>
+		</section> -->
+
+		<section class="text_back" id="bio">
+			<div class="wrapper content_header clearfix">
+				<!-- <div class="title">
+						<h2>Stewdio = Andrew Stewart</h2>
+					</div> -->
+					<div class="summary"
+						<p>Stewdio = Andrew Stewart. </br></br> I'm a designer and art director based in Atlanta, where I'm working to better the future of humanity as a member of the <a href="http://www.kidsii.com">Kids II</a> in-house team.</p>
+					</br>
+						<p>You can reach me at <a href="mailto:andrew@stewdioland.com">andrew@stewdioland.com</a> </p>
+					</div>
+				</div>
+		</section>
+
+
+	</section><!-- end main -->
+
+</body>
+</html>
