@@ -522,12 +522,12 @@ sup {font-size:xx-small; vertical-align:super;}
     }
 
     .summary {
-    	font-size: 1em;
+    	font-size: .9em;
     }
 
 		.credit {
 				padding-top: 25px;
-				font-size: .8em;
+				font-size: .7em;
 		}
 
 
