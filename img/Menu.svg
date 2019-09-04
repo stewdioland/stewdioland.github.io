@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu State</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L13.2063492,0 L13.2063492,3.04761905 L0,3.04761905 L0,0 Z M0,6.0952381 L9.14285714,6.0952381 L9.14285714,9.14285714 L0,9.14285714 L0,6.0952381 Z M0,12.1904762 L16.2539683,12.1904762 L16.2539683,15.2380952 L0,15.2380952 L0,12.1904762 Z" id="path-1"></path>
+    </defs>
+    <g id="Chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="420-599" transform="translate(-524.000000, -131.000000)">
+            <g id="Bars/Header-Bar/Header-Bar" transform="translate(502.000000, 109.000000)">
+                <g id="Icons/Hamburger-Icon/Light-UI/Normal">
+                    <g>
+                        <rect id="Bounds" x="0" y="0" width="60" height="60"></rect>
+                        <g id="Icons/--Container/--Box-(Large-56)-w-Icon-(Med-16)" transform="translate(2.000000, 2.000000)">
+                            <g id="Icons/Sidebar-Item/Normal">
+                                <rect id="Bounds" x="0" y="0" width="56" height="56"></rect>
+                                <g id="Icons/--Overrides/Menu" transform="translate(20.000000, 20.000000)">
+                                    <g transform="translate(0.000000, 0.507937)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Icon"></g>
+                                        <g id="Color/Grayscale/900" mask="url(#mask-2)" fill="#303031">
+                                            <g transform="translate(0.000000, -0.507937)">
+                                                <rect x="0" y="0" width="16.1594684" height="16.1594684"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

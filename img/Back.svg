@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Back</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.591671,19.3537872 C10.5787757,19.3679162 10.5652406,19.3814513 10.5511116,19.3943466 L10.1289713,19.8164869 L0.937954829,10.6248197 C0.693885787,10.3807334 0.693899796,9.98500527 0.937986119,9.74093623 C1.18207244,9.49686719 1.57780055,9.4968812 1.8218696,9.74096752 L9.50491221,17.4245541 L9.50491221,0.807587788 C9.50491221,0.462409819 9.78473424,0.182587788 10.1299122,0.182587788 C10.4750902,0.182587788 10.7549122,0.462409819 10.7549122,0.807587788 L10.7549122,17.422779 L18.4370452,9.74064605 C18.6811229,9.49656837 19.076851,9.49656837 19.3209286,9.74064605 C19.5650063,9.98472373 19.5650063,10.3804518 19.3209286,10.6245295 L10.591671,19.3537872 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Back">
+            <g id="Icon">
+                <g id="Icons/--Overrides/Left-Arrow">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Back" fill="#00AEEF" fill-rule="nonzero" transform="translate(10.129450, 9.999537) rotate(90.000000) translate(-10.129450, -9.999537) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

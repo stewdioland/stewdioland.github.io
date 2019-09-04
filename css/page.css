@@ -1,0 +1,256 @@
+/* =====================================
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+/* .container > * {
+  padding: 0.2em;
+  border: solid 1px #F0F0F4;
+} */
+
+header {
+	background-color: #fff;
+	border-bottom: solid 1px #F0F0F4;
+}
+
+nav {
+	background-color: #303031;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, .4);
+	z-index: 1;
+}
+
+
+/* =====================================
+   Flex rules
+======================================== */
+
+header,
+nav,
+main,
+aside,
+div,
+#header2,
+#searchmax,
+form {
+	display: flex;
+}
+
+aside,
+main,
+.chat_input {
+	flex-direction: column;
+}
+
+
+/* =====================================
+   Header
+======================================== */
+header {
+	justify-content: space-between;	
+}
+
+
+#header2 {
+	justify-content: center;
+	flex-grow: 2;
+}
+
+#searchmax {
+	display: none;
+}
+
+#searchmin {
+	position: fixed;
+	right: 112px;
+	top: 20px;
+}
+
+header {
+	align-items: center;
+}
+
+#menu {
+	padding: 0px 22px;
+}
+
+#notification {
+	margin-left: auto;
+	padding: 0px 16px;
+}
+
+#support {
+	padding: 0px 16px;
+}
+
+#logo {
+	display: none;
+	margin-right: auto;
+}
+
+#logomark {
+	display: none;
+	margin-right: auto;
+}
+
+#page_title {
+	margin-right: auto;
+}
+
+
+
+/* =====================================
+   Nav
+======================================== */
+
+.nav_item {
+	width: 72px;
+	height: 60px;
+	display: flex;
+	opacity: .6;
+}
+
+.nav_item:hover {
+	opacity: .9;
+	background: linear-gradient(rgba(255,108,1,.9), rgba(255,159,59,.9));
+}
+
+.nav_item:active {
+	opacity: 1;
+	background: linear-gradient(rgba(255,108,1,1), rgba(255,159,59,1));
+}
+
+.nav_item img {
+  margin-left: auto;
+  margin-right: auto;
+	align-items: center;
+}
+
+#my_avatar {
+	opacity: 1;
+}
+
+#active_page {
+	opacity: 1;
+	background: linear-gradient(rgba(255,108,1,1), rgba(255,159,59,1));
+}
+
+
+/* =====================================
+   Subheads
+======================================== */
+
+.subhead_aside, .subhead_main {
+  align-items: center;
+	justify-content: space-between;
+	border-bottom: solid 1px #F0F0F4;
+}
+
+.subhead_aside, aside {
+	border-right: solid 1px #F0F0F4;
+}
+
+.subhead_aside .invisible {
+	width: 16px;
+	margin-left: 12px;
+}
+
+.subhead_aside .header_action {
+	margin-right: 12px;
+}
+
+.subhead_main h3 {
+	margin-left: 18px;
+	margin-right: auto;
+}
+
+.subhead_main img {
+	margin-left: 22px;
+}
+
+
+/* =====================================
+   Responsive Breakpoints
+======================================== */
+
+
+@media (min-width: 420px) {
+
+	#page_title {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#logomark {
+		display: inline;
+	}
+
+}
+
+@media (min-width: 600px) {
+
+	#page_title {
+		display: none;
+	}
+
+	#logomark {
+		display: none;
+	}
+
+	#logo {
+		display: inline;
+	}
+
+	.subhead_main img {
+		display: none;
+	}
+
+}
+
+@media (min-width: 720px) {
+	#searchmax {
+		display: flex;
+		align-items: center;
+		flex-basis: 648px;
+	}
+
+	#searchmax img {
+		height: 16px;
+		margin: 15px;
+	}
+
+	#search_input {
+		margin: auto 14px auto 32px;
+		border-radius: 2px;
+		background-color: rgba(0, 0, 0, 0.04);
+		height: 46px;
+		flex-grow: 1;
+		border: none;
+		padding: 8px;
+		/* font-size: 14px; */
+		padding-left: 40px;
+	  }
+
+	.mdc-text-field__icon {
+		position: relative;
+		left: 64px;
+		color: rgba(0, 0, 0, 0.54);
+	}  
+
+	#search_input:focus {
+		box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+		outline:none;
+		background-color: white;
+	}
+
+	#searchmin {
+		display: none;
+	}
+
+}

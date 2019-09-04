@@ -1,0 +1,78 @@
+/* =====================================
+   Grid Layout
+======================================== */
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 60px 1fr;
+  grid-template-areas:
+    "header"
+    "sub_aside"
+    "aside"
+}
+
+nav,
+main,
+.subhead_main,
+.chat_input {
+  display: none;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.subhead_aside {
+  grid-area: sub_aside;
+}
+
+main {
+  grid-area: main;
+}
+
+.chat_input {
+  grid-area: input;
+}
+
+.subhead_main {
+  grid-area: sub_main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+@media (min-width: 600px) {
+  .container {
+      grid-template-columns: 72px 280px 1fr;
+      grid-template-rows: 60px 60px 1fr 110px;
+      grid-template-areas:
+        "nav header header"
+        "nav sub_aside sub_main"
+        "nav aside main"
+        "nav aside input";
+  }
+
+  nav,
+  main,
+  .subhead_main,
+  .chat_input {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 720px) {
+  .container {
+      grid-template-columns: 72px 280px 1fr;
+  }
+}
