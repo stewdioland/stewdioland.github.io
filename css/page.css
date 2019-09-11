@@ -226,7 +226,7 @@ header {
 	}
 
 	#search_input {
-		margin: auto 14px auto 32px;
+		margin: auto 14px auto 8px;
 		border-radius: 2px;
 		background-color: rgba(0, 0, 0, 0.04);
 		height: 46px;
@@ -239,7 +239,7 @@ header {
 
 	.mdc-text-field__icon {
 		position: relative;
-		left: 64px;
+		left: 40px;
 		color: rgba(0, 0, 0, 0.54);
 	}  
 
